@@ -4,19 +4,12 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Docker",
-  tagline: "Dinosaurs are cool",
+  tagline: "La documentation claire et structurée pour apprendre Docker",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
+  //TODO: Change once the vercel app is up
   url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -51,14 +44,19 @@ const config: Config = {
         {
           type: "docSidebar",
           sidebarId: "dockerSidebar",
-          position: "right",
+          position: "left",
           label: "Documentation",
+        },
+        {
+          href: "https://github.com/Lo-ouiiz/docker-docusaurus",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
       style: "dark",
-      copyright: `Built with Docusaurus`,
+      copyright: `Construit avec Docusaurus`,
     },
     prism: {
       theme: prismThemes.github,
