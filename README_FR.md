@@ -9,6 +9,7 @@ Le projet est entièrement **dockerisé** afin de faciliter le déploiement et l
 ## 📒 Sommaire
 
 - [À propos](#🔰-à-propos)
+- [Démo](#🚀-démo)
 - [Technologies](#🛠️-technologies)
 - [Fonctionnalités](#✨-fonctionnalités)
 - [Calendrier](#📅-calendrier)
@@ -18,6 +19,10 @@ Le projet est entièrement **dockerisé** afin de faciliter le déploiement et l
 Ce site est un **portail de documentation** conçu pour **retranscrire et organiser les notes** que j’ai prises lors de mon **cours sur Docker**. Il couvre les concepts essentiels, les bonnes pratiques et des exemples concrets afin de servir de référence tout au long de mon apprentissage.
 
 Développé avec **Docusaurus**, le projet offre une expérience de lecture claire et interactive.
+
+## 🚀 Démo
+
+Essaye la démo ici : [Documentation Docker](https://docusaurus-docker.vercel.app/)
 
 ## 🛠️ Technologies
 
