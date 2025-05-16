@@ -2,31 +2,24 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 const sidebars: SidebarsConfig = {
   dockerSidebar: [
-    "docker-doc/introduction",
+    "introduction",
     {
       type: "category",
       label: "Concepts de base",
-      items: ["docker-doc/docker-vs-vm", "docker-doc/image-et-conteneur"],
+      items: ["docker-vs-vm", "image-et-conteneur"],
     },
     {
       type: "category",
       label: "Dockerfile",
-      items: [
-        "docker-doc/dockerfile-structure",
-        "docker-doc/dockerfile-dockerignore",
-      ],
+      items: ["dockerfile-structure", "dockerfile-dockerignore"],
     },
-    "docker-doc/commandes",
+    "commandes",
     {
       type: "category",
       label: "Docker compose",
-      items: [
-        "docker-doc/compose-definition",
-        "docker-doc/compose-commandes",
-        "docker-doc/compose-yml",
-      ],
+      items: ["compose-definition", "compose-commandes", "compose-yml"],
     },
-    "docker-doc/windows",
+    "windows",
   ],
 };
 
