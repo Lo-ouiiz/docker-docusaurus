@@ -1,41 +1,37 @@
-# Website
+# Introduction
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+[Lire en français - 🇫🇷](README_FR.md)
 
-### Installation
+As a school project during my **first year of master's degree**, I created **technical documentation** on **Docker** using **Docusaurus**, a modern static site generator.
 
-```
-$ yarn
-```
+The project is fully **Dockerized** for easy deployment and collaboration.
 
-### Local Development
+## 📒 Index
 
-```
-$ yarn start
-```
+- [About](#🔰-about)
+- [Stack](#🛠️-stack)
+- [Features](#✨-features)
+- [Timeline](#📅-timeline)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 🔰 About
 
-### Build
+This website is a **documentation portal** designed to **transcribe and organize the notes** I took during my **Docker course**. It covers essential concepts, best practices, and practical examples to serve as a reference throughout my learning journey.
 
-```
-$ yarn build
-```
+Built with **Docusaurus**, the project offers a clean and interactive reading experience.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 🛠️ Stack
 
-### Deployment
+- **Docusaurus** – Static site generator
+- **Markdown** – Content format
+- **Docker** – Containerization and deployment
+- **Node.js** – Runtime environment
 
-Using SSH:
+## ✨ Features
 
-```
-$ USE_SSH=true yarn deploy
-```
+- 📘 **Multi-page Documentation**: Organized by topics such as images, containers, command lines and Compose.
+- 🎨 **Light/Dark Mode**: Automatically adapts to user preferences.
+- 🐳 **Fully Dockerized**: Run locally or deploy easily with Docker.
 
-Not using SSH:
+## 📅 Timeline
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This project was completed in **May 2025** as a school project.
