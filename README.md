@@ -12,6 +12,7 @@ The project is fully **Dockerized** for easy deployment and collaboration.
 - [Demo](#🚀-demo)
 - [Stack](#🛠️-stack)
 - [Features](#✨-features)
+- [Usage](#📦-usage)
 - [Timeline](#📅-timeline)
 
 ## 🔰 About
@@ -36,6 +37,21 @@ Check out the live documentation: [Docker Docs](https://docusaurus-docker.vercel
 - 📘 **Multi-page Documentation**: Organized by topics such as images, containers, command lines and Compose.
 - 🎨 **Light/Dark Mode**: Automatically adapts to user preferences.
 - 🐳 **Fully Dockerized**: Run locally or deploy easily with Docker.
+
+## 📦 Usage
+
+To build and run the documentation locally using Docker:
+
+```bash
+git clone https://github.com/Lo-ouiiz/docusaurus-docker.git
+cd docusaurus-docker
+
+# Build the Docker image (approximately 49MB)
+docker build -t docusaurus-docker .
+
+# Run the container
+docker run -p 80:80 docusaurus-docker
+```
 
 ## 📅 Timeline
 

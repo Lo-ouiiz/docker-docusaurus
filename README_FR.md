@@ -12,6 +12,7 @@ Le projet est entièrement **dockerisé** afin de faciliter le déploiement et l
 - [Démo](#🚀-démo)
 - [Technologies](#🛠️-technologies)
 - [Fonctionnalités](#✨-fonctionnalités)
+- [Utilisation](#📦-utilisation)
 - [Calendrier](#📅-calendrier)
 
 ## 🔰 À propos
@@ -36,6 +37,21 @@ Essaye la démo ici : [Documentation Docker](https://docusaurus-docker.vercel.ap
 - 📘 **Documentation multi-pages** : Organisée par thématiques comme les images, les conteneurs, les lignes de commande et Docker Compose.
 - 🎨 **Mode clair/sombre** : S’adapte automatiquement aux préférences de l’utilisateur.
 - 🐳 **Entièrement dockerisé** : Peut être exécuté localement ou facilement déployé avec Docker.
+
+## 📦 Utilisation
+
+Pour construire et exécuter la documentation localement avec Docker :
+
+```bash
+git clone https://github.com/Lo-ouiiz/docusaurus-docker.git
+cd docusaurus-docker
+
+# Construire l'image Docker (environ 49MB)
+docker build -t docusaurus-docker .
+
+# Lancer le conteneur
+docker run -p 80:80 docusaurus-docker
+```
 
 ## 📅 Calendrier
 
